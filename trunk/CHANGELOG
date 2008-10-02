@@ -1,0 +1,8 @@
+libprop 0.12 (released 2008-02-23)
+
+	* fixed bug with elevEnd calculation in pathLoss()
+	* added Longley-Rice propagation model
+
+libprop 0.11 (released 2007-12-13)
+
+	* initial release under GNU license
