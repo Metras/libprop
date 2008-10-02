@@ -2,7 +2,7 @@
 
 Radio propagation analysis describes how radio signals move through a given area.  Given a set of known radio equipment and two specific locations, we can model the environmental conditions between those points to determine if successful radio communication is possible.
 
-libprop was written by [http://jsharkey.org/ Jeffrey Sharkey] while a Graduate Research Assistant at the [http://www.coe.montana.edu/wti/ Western Transportation Institute] at [http://montana.edu/ Montana State University].
+libprop was written by [http://jsharkey.org/ Jeffrey Sharkey] while a Graduate Research Assistant at the [http://www.coe.montana.edu/wti/ Western Transportation Institute] at [http://montana.edu/ Montana State University].  His work was sponsored by the Western Transportation Institute, and was guided by advisor Doug Galarus. Other valuable guidance was provided by Dr. Bill Jameson and Gary Schoep.
 
 = Data Sources =
 
