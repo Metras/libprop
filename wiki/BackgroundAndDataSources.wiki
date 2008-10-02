@@ -2,13 +2,12 @@
 
 Radio propagation analysis describes how radio signals move through a given area.  Given a set of known radio equipment and two specific locations, we can model the environmental conditions between those points to determine if successful radio communication is possible.
 
-libprop was written by <a href="http://jsharkey.org/">Jeffrey Sharkey</a> while a Graduate Research Assistant at the <a href="http://www.coe.montana.edu/wti/">Western Transportation Institute</a> at <a href="http://montana.edu/">Montana State University</a>.
+libprop was written by [http://jsharkey.org/ Jeffrey Sharkey] while a Graduate Research Assistant at the [http://www.coe.montana.edu/wti/ Western Transportation Institute] at [http://montana.edu/ Montana State University].
 
 = Data Sources =
 
 The USGS is an excellent source of digitized terrain data, and they continue to improve data quality and resolution as technology allows.  Currently they are offering 10-meter resolution data for the entire United States, which is what libprop usually expects.
 
- * <a href="http://seamless.usgs.gov/">USGS National Map Seamless Server</a>
+ * [http://seamless.usgs.gov/ USGS National Map Seamless Server]
 
-libprop can accept data in either the GridFloat or BIL (integer) formats from USGS, and it understands native lat/long mapping and Albers projection.  For terrain data we recommend using "<a href="http://seamless.usgs.gov/products/9arc.php">National Elevation Dataset (NED) 1/9 Arc Second</a>" data source, which provides 10-meter resolution.  We also recommend the "<a href="http://www.landfire.gov/NationalProductDescriptions23.php">Landfire Existing Vegetation Cover</a>" and "<a href="http://www.landfire.gov/NationalProductDescriptions22.php">Landfire Existing Vegetation Height</a>" data sources which provides vegetation type and height information.  Optionally, we can accept the "<a href="http://seamless.usgs.gov/products/nlcd01.php">National Land Cover Dataset 2001</a>" data source which provides land-use classifications.  Our algorithm doesn't use this data by default.
-
+libprop can accept data in either the GridFloat or BIL (integer) formats from USGS, and it understands native lat/long mapping and Albers projection.  For terrain data we recommend using "[http://seamless.usgs.gov/products/9arc.php National Elevation Dataset (NED) 1/9 Arc Second]" data source, which provides 10-meter resolution.  We also recommend the "[http://www.landfire.gov/NationalProductDescriptions23.php Landfire Existing Vegetation Cover]" and "[http://www.landfire.gov/NationalProductDescriptions22.php Landfire Existing Vegetation Height]" data sources which provides vegetation type and height information.  Optionally, we can accept the "[http://seamless.usgs.gov/products/nlcd01.php National Land Cover Dataset 2001]" data source which provides land-use classifications.  Our algorithm doesn't use this data by default.
